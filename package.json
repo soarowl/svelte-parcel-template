@@ -1,0 +1,14 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rm -rf dist/*; parcel build src/index.html --public-url . --no-source-maps",
+    "start": "sirv dist"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "sirv-cli": "^1.0.6",
+    "svelte": "^3.25.1"
+  }
+}
